@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+ .contents{ height: 1420px; }
+.contents h2{font:bold 38px "Do Hyeon";}    
+    
+.contents h3{font:normal 13px "Malgun Gothic";  } 
+
+.contents .cont1{width: 90%; position: relative; margin: 50px auto 0;}
+    
+    
+    
+.contents .cont1 .search_01{position: absolute; left:8%; width: 9%; height:45px; margin: 25px auto; }
+.contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
+    
+.contents .cont1 .search_02{position: absolute; left:25%; height: 39px; margin:25px auto; width: 45%; }
+.contents .cont1 .search_02 input{width: 100%;height: 39px; line-height: 40px;font:bold 20px "Malgun Gothic";}
+
+.contents .cont1 .search_03{position: absolute; display: block; left:76%; width: 16%; height: 45px; background: #000; margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
+.contents .cont1 .search_03 a{display: block; height: 45px; box-sizing: border-box; text-align: center; line-height: 45px; margin: 0 auto; color: #fff; }   
+    
+    
+.contents .cont2{width: 90%; position: relative; margin: 70px auto 0; height: 1080px;  }
+.contents .cont2 ul{width:100%;}
+.contents .cont2 li{width:48%; margin-right: 4%;}    
+.contents .cont2 li:nth-child(2n){margin-right: 0;}    
+.contents .cont2 li img{width: 100%;}    
+
+
+    
+    
+.contents .cont3 ul{position: absolute; left:42%;}    
+    
+    
+    
+}
+    
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+.contents{ height: 1250px; }
+.contents h2{font:bold 45px "Do Hyeon";}        
+.contents h3{font:normal 15px "Malgun Gothic";  }     
+.contents .cont1{width: 85%; position: relative; margin: 50px auto 0; }
+    
+    
+.contents .cont1 .search_01{position: absolute; left:11.5%; width: 9%; height:45px; margin: 25px auto; }
+.contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
+    
+.contents .cont1 .search_02{position: absolute; left:24%; height: 39px; margin:25px auto; width: 45%; }
+.contents .cont1 .search_02 input{width: 100%;height: 39px; line-height: 40px;font:bold 20px "Malgun Gothic";}
+
+.contents .cont1 .search_03{position: absolute; display: block; left:75%; width: 16%; height: 45px; background: #000;margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
+    
+    
+.contents .cont2{width: 85%; position: relative; margin: 70px auto 0; height: 900px;  }
+.contents .cont2 ul{width:100%;}
+.contents .cont2 li{width:30%; margin-right: 5%;}    
+.contents .cont2 li:nth-child(3n){margin-right: 0;}    
+.contents .cont2 li img{width: 100%;}    
+
+    
+    
+    
+    
+} 
+    
+/*pc*/
+@media all and (min-width:1024px) {
+    
+.contents{ height: 1050px; }
+.contents .cont1{width: 82%; position: relative; margin: 50px auto 0; }
+    
+.contents .cont1 .search_01{position: absolute; left:23%; width: 5%; height:45px; margin: 25px auto; }
+.contents .cont1 .search_01 select{height: 45px;font:normal 15px "Malgun Gothic";}
+
+.contents .cont1 .search_02{position: absolute; left:31%; height: 40px; margin: 25px auto; width: 34%; }
+.contents .cont1 .search_02 input{width: 100%;height: 40px; line-height: 40px; font:bold 20px "Malgun Gothic";}
+
+.contents .cont1 .search_03{position: absolute; display: block; left:70%; width: 8%; height: 45px; background: #000;margin: 25px auto; color:#fff; font:normal 16px "Malgun Gothic"; }
+    
+    
+.contents .cont2{width: 82%; position: relative; margin: 70px auto 0; height: 650px;  }
+.contents .cont2 ul{width:100%;}
+.contents .cont2 li{width:22%; margin-right: 4%;}    
+.contents .cont2 li:nth-child(4n){margin-right: 0;}    
+.contents .cont2 li img{width: 100%;}
+
+    
+    
+.contents .cont3{position:relative; width: 100%; height: 50px;}
+.contents .cont3 ul{width: 100%; text-align: center; margin: 0 auto;}
+.contents .cont3 li{float: left; margin-right:5px; }
+.contents .cont3 li:last-child{margin-right: 0;}
+.contents .cont3 li a{font:normal 20px "Malgun Gothic"; text-align: center;}
+.contents .cont3 li a:hover{text-decoration: underline;}    
+    
+}    
